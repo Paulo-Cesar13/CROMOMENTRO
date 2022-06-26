@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%; 
+    background-color: black;
+}
+
+.aline-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1{
+    font-size: 20em;
+    color: white;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    width: 5.5em;
+    height: 2.2em;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 5px rgb(30, 31, 31);
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.start-btn{
+    background-color: green;
+}
+
+.pause-btn{
+    background-color: blue;
+}
+
+.stop-btn{
+    background-color: red;
+}
